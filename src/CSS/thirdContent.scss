@@ -1,0 +1,127 @@
+@media screen and (min-width: 1200px) {
+	.thirdContent {
+		margin-top: 100px;
+		margin-bottom: 100px;
+		.firstText {
+			margin-left: 10%;
+			display: flex;
+			padding-bottom: 50px;
+			.title {
+				user-select: none;
+				h1 {
+					margin: 0px;
+					font-family: Raleway;
+					color: #3c3c3c;
+					font-size: 45px;
+					font-weight: 700;
+					span {
+						font-weight: 300;
+					}
+				}
+			}
+			.title2 {
+				margin-left: 61.5%;
+				width: 25%;
+				p {
+					cursor: default;
+					user-select: none;
+					font-size: 20px;
+					font-family: "Playfair Display";
+					color: #e2574c;
+				}
+			}
+		}
+		.content {
+			display: flex;
+			justify-content: center;
+			flex-wrap: wrap;
+			.card {
+				cursor: default;
+				border: 1px solid #e6e6e6;
+				margin-right: 2.5%;
+				margin-left: 2.5%;
+				img {
+					width: 310px;
+					user-select: none;
+
+				}
+				p.name {
+					text-align: center;
+					font-family: Raleway;
+					font-size: 20px;
+					color: #000000;
+				}
+				p.role {
+					margin-top: -10px;
+					text-align: center;
+					font-family: "Playfair Display";
+					color: #797979;
+					font-size: 16px;
+				}
+			}
+		}
+	}
+}
+@media screen and (max-width: 1200px) {
+	.thirdContent {
+		margin-top: 100px;
+		margin-bottom: 100px;
+		.firstText {
+			display: block;
+			padding-bottom: 50px;
+			text-align: center;
+			.title {
+				user-select: none;
+				h1 {
+					margin: 0px;
+					font-family: Raleway;
+					color: #3c3c3c;
+					font-size: 45px;
+					font-weight: 700;
+					span {
+						font-weight: 300;
+					}
+				}
+			}
+			.title2 {
+				width: 100%;
+				p {
+					cursor: default;
+					user-select: none;
+					font-size: 20px;
+					font-family: "Playfair Display";
+					color: #e2574c;
+				}
+			}
+		}
+		.content {
+			display: flex;
+			justify-content: center;
+			flex-wrap: wrap;
+			.card {
+				cursor: default;
+				border: 1px solid #e6e6e6;
+				margin-right: 2.5%;
+				margin-left: 2.5%;
+				img {
+					width: 310px;
+					user-select: none;
+
+				}
+				p.name {
+					text-align: center;
+					font-family: Raleway;
+					font-size: 20px;
+					color: #000000;
+				}
+				p.role {
+					margin-top: -10px;
+					text-align: center;
+					font-family: "Playfair Display";
+					color: #797979;
+					font-size: 16px;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,458 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+body {
+	margin: 0px;
+	padding: 0px;
+}
+@media screen and (min-width: 1800px) {
+	.navBar{
+		user-select: none;
+		background-color: #ffffff; 
+		width: 100%;
+		box-shadow: 0 0 10px rgba(0, 0, 1, 0.2);
+		font-family: 'Playfair Display', serif;
+		display: flex;
+		.logo{
+			margin-top: 1.25%;
+			margin-left: 10%;
+			img {
+				width: 173px;
+				height: 45px;
+			}
+		}
+		.menu {
+			width: 40%;
+			display: flex;
+			margin-left: 20%;
+			div {
+				transition: 0.5s;
+				padding-left: 35px;
+				padding-right: 35px;
+				padding-top: 4%;
+				padding-bottom: auto;
+				a {
+					color: black;
+					outline: none;
+					text-decoration: none;
+					font-size: 20px;
+				}
+			}
+			div:hover {
+				background-color: #f2f2f2;
+			}
+			div:after {
+				content: '';
+				display: block;
+				width: 0;
+				height: 3px;
+				background: #e5493a;
+				transition: width .3s;
+				margin-top: 0px;
+			}
+			div:hover::after {
+				width: 42%;
+				margin-top: 0px;
+			}
+		}
+		.reseaux {
+			color: #3c3c3c;
+			margin-top: 1.2%;
+			width: 15%;
+			display: flex;
+			padding-bottom: 1.2%;
+			justify-content: space-around;
+			.Icon {
+				box-sizing: content-box;
+				cursor: pointer;
+				font-size: 20px;
+				border: solid #3c3c3c 1px;
+				padding: 10px;
+				border-radius: 200px;
+				transition: 0.4s;
+			}
+			.pinterest:hover {
+				background-color: rgba(191, 191, 191, .5);
+				border: solid #e5493a 1px;
+				color: #e5493a;
+			}
+			.googleplus:hover {
+				background-color: rgba(191, 191, 191, .5);
+				border: solid #e5493a 1px;
+				color: #e5493a;
+			}
+			.facebook:hover {
+				background-color: rgba(191, 191, 191, .5);
+				border: solid #4267B2 1px;
+				color: #4267B2;
+			}
+			.instagram:hover {
+				background-color: rgba(191, 191, 191, .5);
+				border: solid #852199 1px;
+				color: #852199;
+			}
+		}
+	}
+}
+@media screen and (min-width: 1441px) and (max-width: 1800px) {
+	.navBar{
+		user-select: none;
+		background-color: #ffffff; 
+		width: 100%;
+		box-shadow: 0 0 10px rgba(0, 0, 1, 0.2);
+		font-family: 'Playfair Display', serif;
+		display: flex;
+		.logo{
+			margin-top: 1.25%;
+			margin-left: 10%;
+			img {
+				width: 173px;
+				height: 45px;
+			}
+		}
+		.menu {
+			width: 50%;
+			display: flex;
+			margin-left: 10%;
+			div {
+				transition: 0.5s;
+				padding-left: 35px;
+				padding-right: 35px;
+				padding-top: 4%;
+				padding-bottom: auto;
+				a {
+					color: black;
+					outline: none;
+					text-decoration: none;
+					font-size: 20px;
+				}
+			}
+			div:hover {
+				background-color: #f2f2f2;
+			}
+			div:after {
+				content: '';
+				display: block;
+				width: 0;
+				height: 3px;
+				background: #e5493a;
+				transition: width .3s;
+				margin-top: 0px;
+			}
+			div:hover::after {
+				width: 42%;
+				margin-top: 0px;
+			}
+		}
+		.reseaux {
+			color: #3c3c3c;
+			margin-top: 1.2%;
+			width: 15%;
+			display: flex;
+			justify-content: space-around;
+			padding-bottom: 1.2%;
+			.Icon {
+				box-sizing: content-box;
+				cursor: pointer;
+				font-size: 20px;
+				border: solid #3c3c3c 1px;
+				padding: 10px;
+				border-radius: 200px;
+				transition: 0.4s;
+			}
+			.pinterest:hover {
+				background-color: rgba(191, 191, 191, .5);
+				border: solid #e5493a 1px;
+				color: #e5493a;
+			}
+			.googleplus:hover {
+				background-color: rgba(191, 191, 191, .5);
+				border: solid #e5493a 1px;
+				color: #e5493a;
+			}
+			.facebook:hover {
+				background-color: rgba(191, 191, 191, .5);
+				border: solid #4267B2 1px;
+				color: #4267B2;
+			}
+			.instagram:hover {
+				background-color: rgba(191, 191, 191, .5);
+				border: solid #852199 1px;
+				color: #852199;
+			}
+		}
+	}
+}
+@media screen and (min-width: 1300px) and (max-width: 1440px) {
+	.navBar{
+		user-select: none;
+		background-color: #ffffff; 
+		width: 100%;
+		box-shadow: 0 0 10px rgba(0, 0, 1, 0.2);
+		font-family: 'Playfair Display', serif;
+		display: flex;
+		.logo{
+			margin-top: 1.25%;
+			margin-left: 10%;
+			img {
+				width: 173px;
+				height: 45px;
+			}
+		}
+		.menu {
+			width: 55%;
+			display: flex;
+			margin-left: 5%;
+			div {
+				transition: 0.5s;
+				padding-left: 35px;
+				padding-right: 35px;
+				padding-top: 4%;
+				padding-bottom: auto;
+				a {
+					color: black;
+					outline: none;
+					text-decoration: none;
+					font-size: 20px;
+				}
+			}
+			div:hover {
+				background-color: #f2f2f2;
+			}
+			div:after {
+				content: '';
+				display: block;
+				width: 0;
+				height: 3px;
+				background: #e5493a;
+				transition: width .3s;
+				margin-top: 0px;
+			}
+			div:hover::after {
+				width: 42%;
+				margin-top: 0px;
+			}
+		}
+		.reseaux {
+			color: #3c3c3c;
+			margin-top: 1.2%;
+			width: 15%;
+			display: flex;
+			justify-content: space-around;
+			padding-bottom: 1.2%;
+			.Icon {
+				box-sizing: content-box;
+				cursor: pointer;
+				font-size: 20px;
+				border: solid #3c3c3c 1px;
+				padding: 10px;
+				border-radius: 200px;
+				transition: 0.4s;
+			}
+			.pinterest:hover {
+				background-color: rgba(191, 191, 191, .5);
+				border: solid #e5493a 1px;
+				color: #e5493a;
+			}
+			.googleplus:hover {
+				background-color: rgba(191, 191, 191, .5);
+				border: solid #e5493a 1px;
+				color: #e5493a;
+			}
+			.facebook:hover {
+				background-color: rgba(191, 191, 191, .5);
+				border: solid #4267B2 1px;
+				color: #4267B2;
+			}
+			.instagram:hover {
+				background-color: rgba(191, 191, 191, .5);
+				border: solid #852199 1px;
+				color: #852199;
+			}
+		}
+	}
+}
+@media screen and (min-width: 750px) and (max-width: 1300px) {
+	.navBar{
+		user-select: none;
+		background-color: #ffffff; 
+		width: 100%;
+		box-shadow: 0 0 10px rgba(0, 0, 1, 0.2);
+		font-family: 'Playfair Display', serif;
+		display: block;
+		.logo{
+			display: flex;
+			justify-content: center;
+			width: 100%;
+			padding-top: 1.25%;
+			img {
+				width: 173px;
+				height: 45px;
+			}
+		}
+		.menu {
+			width: 100%;
+			display: flex;
+			justify-content: center;
+			div {
+				transition: 0.5s;
+				padding-left: 35px;
+				padding-right: 35px;
+				padding-top: 4%;
+				padding-bottom: auto;
+				a {
+					color: black;
+					outline: none;
+					text-decoration: none;
+					font-size: 20px;
+				}
+			}
+			div:after {
+				content: '';
+				display: block;
+				width: 0;
+				height: 3px;
+				background: #e5493a;
+				transition: width .3s;
+				margin-top: 0px;
+			}
+			div:hover::after {
+				width: 42%;
+				margin-top: 0px;
+			}
+		}
+		.reseaux {
+			color: #3c3c3c;
+			margin-top: 1.2%;
+			width: 100%;
+			display: flex;
+			justify-content: center;
+			padding-bottom: 1.2%;
+			.Icon {
+				margin-right: 20px;
+				margin-left: 20px;
+				display: flex;
+				justify-content: center;
+				box-sizing: content-box;
+				cursor: pointer;
+				font-size: 20px;
+				border: solid #3c3c3c 1px;
+				padding: 10px;
+				border-radius: 200px;
+				transition: 0.4s;
+			}
+			.pinterest:hover {
+				background-color: rgba(191, 191, 191, .5);
+				border: solid #e5493a 1px;
+				color: #e5493a;
+			}
+			.googleplus:hover {
+				background-color: rgba(191, 191, 191, .5);
+				border: solid #e5493a 1px;
+				color: #e5493a;
+			}
+			.facebook:hover {
+				background-color: rgba(191, 191, 191, .5);
+				border: solid #4267B2 1px;
+				color: #4267B2;
+			}
+			.instagram:hover {
+				background-color: rgba(191, 191, 191, .5);
+				border: solid #852199 1px;
+				color: #852199;
+			}
+		}
+	}
+}
+@media screen and (min-width: 0px) and (max-width: 750px) {
+	.navBar{
+		user-select: none;
+		background-color: #ffffff; 
+		width: 100%;
+		box-shadow: 0 0 10px rgba(0, 0, 1, 0.2);
+		font-family: 'Playfair Display', serif;
+		display: block;
+		.logo{
+			display: flex;
+			justify-content: center;
+			width: 100%;
+			padding-top: 1.25%;
+			img {
+				width: 173px;
+				height: 45px;
+			}
+		}
+		.menu {
+			width: 100%;
+			display: flex;
+			justify-content: center;
+			flex-wrap: wrap;
+			div {
+				transition: 0.5s;
+				padding-left: 35px;
+				padding-right: 35px;
+				padding-top: 4%;
+				padding-bottom: auto;
+				a {
+					color: black;
+					outline: none;
+					text-decoration: none;
+					font-size: 20px;
+				}
+			}
+			div:after {
+				content: '';
+				display: block;
+				width: 0;
+				height: 3px;
+				background: #e5493a;
+				transition: width .3s;
+				margin-top: 0px;
+			}
+			div:hover::after {
+				width: 42%;
+				margin-top: 0px;
+			}
+		}
+		.reseaux {
+			color: #3c3c3c;
+			margin-top: 1.2%;
+			width: 100%;
+			display: flex;
+			justify-content: center;
+			padding-bottom: 1.2%;
+			.Icon {
+				margin-right: 20px;
+				margin-left: 20px;
+				display: flex;
+				justify-content: center;
+				box-sizing: content-box;
+				cursor: pointer;
+				font-size: 20px;
+				border: solid #3c3c3c 1px;
+				padding: 10px;
+				border-radius: 200px;
+				transition: 0.4s;
+			}
+			.pinterest:hover {
+				background-color: rgba(191, 191, 191, .5);
+				border: solid #e5493a 1px;
+				color: #e5493a;
+			}
+			.googleplus:hover {
+				background-color: rgba(191, 191, 191, .5);
+				border: solid #e5493a 1px;
+				color: #e5493a;
+			}
+			.facebook:hover {
+				background-color: rgba(191, 191, 191, .5);
+				border: solid #4267B2 1px;
+				color: #4267B2;
+			}
+			.instagram:hover {
+				background-color: rgba(191, 191, 191, .5);
+				border: solid #852199 1px;
+				color: #852199;
+			}
+		}
+	}
+}

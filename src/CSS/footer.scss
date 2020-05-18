@@ -1,0 +1,183 @@
+@media screen and (min-width: 1050px) {
+	div.footer {
+		background-color: #303030;
+		padding-top: 80px;
+		padding-bottom: 80px;
+		.contain {
+			display: flex;
+			justify-content: space-around;
+			width: 90%;
+			.col-1 {
+				width: 20%;
+				.image {
+					display: flex;
+					justify-content: center;
+					img {
+						user-select: none;
+						width: 200px;
+					}
+				}
+				.reseaux {
+					color: white;
+					margin-top: 5%;
+					padding-bottom: 1.2%;
+					display: flex;
+					justify-content: center;
+					.Icon {
+						margin-left: 7px;
+						margin-right: 7px;
+						box-sizing: content-box;
+						background-color: rgba(255, 255, 255, .2);
+						cursor: pointer;
+						font-size: 20px;
+						border: solid white 1px;
+						padding: 8px;
+						border-radius: 200px;
+						transition: 0.4s;
+					}
+					.pinterest:hover {
+						background-color: rgba(191, 191, 191, .5);
+						border: solid #e5493a 1px;
+						color: #e5493a;
+					}
+					.googleplus:hover {
+						background-color: rgba(191, 191, 191, .5);
+						border: solid #e5493a 1px;
+						color: #e5493a;
+					}
+					.facebook:hover {
+						background-color: rgba(191, 191, 191, .5);
+						border: solid #4267B2 1px;
+						color: #4267B2;
+					}
+					.instagram:hover {
+						background-color: rgba(191, 191, 191, .5);
+						border: solid #852199 1px;
+						color: #852199;
+					}
+				}
+			}
+			.col {
+				margin-top: -15px;
+				p {
+					user-select: none;
+					font-family: Raleway;
+					font-size: 28px;
+					color: #ffffff;
+				}
+				ul {
+					margin: 0px;
+					padding: 0px;
+					li {
+						list-style: none;
+						a {
+							user-select: none;
+							padding-top: 10px;
+							font-family: "Playfair Display";
+							color: #ffffff;
+							margin: 0px;
+							cursor: pointer;
+							text-decoration: none;
+						}
+						.email {
+							color: #e2574c;
+							margin-top: 10px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+@media screen and (max-width: 1050px) {
+	div.footer {
+		background-color: #303030;
+		padding-top: 80px;
+		padding-bottom: 80px;
+		.contain {
+			display: flex;
+			justify-content: center;
+			width: 90%;
+			.col-1 {
+				width: 20%;
+				.image {
+					display: flex;
+					justify-content: center;
+					img {
+						user-select: none;
+						width: 200px;
+					}
+				}
+				.reseaux {
+					color: white;
+					margin-top: 5%;
+					padding-bottom: 1.2%;
+					display: flex;
+					justify-content: center;
+					.Icon {
+						margin-left: 7px;
+						margin-right: 7px;
+						box-sizing: content-box;
+						background-color: rgba(255, 255, 255, .2);
+						cursor: pointer;
+						font-size: 20px;
+						border: solid white 1px;
+						padding: 8px;
+						border-radius: 200px;
+						transition: 0.4s;
+					}
+					.pinterest:hover {
+						background-color: rgba(191, 191, 191, .5);
+						border: solid #e5493a 1px;
+						color: #e5493a;
+					}
+					.googleplus:hover {
+						background-color: rgba(191, 191, 191, .5);
+						border: solid #e5493a 1px;
+						color: #e5493a;
+					}
+					.facebook:hover {
+						background-color: rgba(191, 191, 191, .5);
+						border: solid #4267B2 1px;
+						color: #4267B2;
+					}
+					.instagram:hover {
+						background-color: rgba(191, 191, 191, .5);
+						border: solid #852199 1px;
+						color: #852199;
+					}
+				}
+			}
+			.col {
+				display: none;
+				margin-top: -15px;
+				p {
+					user-select: none;
+					font-family: Raleway;
+					font-size: 28px;
+					color: #ffffff;
+				}
+				ul {
+					margin: 0px;
+					padding: 0px;
+					li {
+						list-style: none;
+						a {
+							user-select: none;
+							padding-top: 10px;
+							font-family: "Playfair Display";
+							color: #ffffff;
+							margin: 0px;
+							cursor: pointer;
+							text-decoration: none;
+						}
+						.email {
+							color: #e2574c;
+							margin-top: 10px;
+						}
+					}
+				}
+			}
+		}
+	}
+}

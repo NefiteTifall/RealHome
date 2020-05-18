@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+@media screen and (min-width: 1300px) {
+	.firstContent {
+		margin-top: 4%;
+		margin-left: 10%;
+		.breadCrumb {
+			user-select: none;
+			font-family: 'Raleway', sans-serif;
+			cursor: default;
+			p {
+				color: #797979;
+				font-weight: 700;
+				font-size: 17px;
+				a {
+					color: #e2574c;
+					font-weight: 600;
+					text-decoration: none;
+				}
+			}
+		}
+		.title {
+			user-select: none;
+			h1 {
+				font-family: Raleway;
+				color: #3c3c3c;
+				font-size: 45px;
+				font-weight: 700;
+				span {
+					font-weight: 300;
+				}
+			}
+		}
+		.content {
+			width: 82%;
+			margin-top: 4%;
+			.image {
+				float: left;
+				padding-right: 80px;
+			}
+			.text {
+				padding-left: 80px;
+				font-family: 'Playfair Display', serif;
+				color: #797979;
+				font-size: 20px;
+				line-height: 29px;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 1300px) {
+	.firstContent {
+		margin-top: 4%;
+		.breadCrumb {
+			margin-left: 10%;
+			user-select: none;
+			font-family: 'Raleway', sans-serif;
+			cursor: default;
+			p {
+				color: #797979;
+				font-weight: 700;
+				font-size: 17px;
+				a {
+					color: #e2574c;
+					font-weight: 600;
+					text-decoration: none;
+				}
+			}
+		}
+		.title {
+			margin-left: 10%;
+			user-select: none;
+			h1 {
+				font-family: Raleway;
+				color: #3c3c3c;
+				font-size: 45px;
+				font-weight: 700;
+				span {
+					font-weight: 300;
+				}
+			}
+		}
+		.content {
+			width: 100%;
+			margin-top: 4%;
+			.image {
+				display: flex;
+				justify-content: center;
+			}
+			.text {
+				text-align: center;
+				font-family: 'Playfair Display', serif;
+				color: #797979;
+				font-size: 20px;
+				line-height: 29px;
+			}
+		}
+	}
+}
+@media screen and (max-width: 550px) {
+	.firstContent {
+		.title {
+			user-select: none;
+			margin-left: 0%;
+			text-align: center;
+			h1 {
+				font-family: Raleway;
+				color: #3c3c3c;
+				font-size: 45px;
+				font-weight: 700;
+				span {
+					font-weight: 300;
+				}
+			}
+		}
+		.content {
+			width: 100%;
+			margin-top: 4%;
+			.image {
+				img {
+					width: 100%;
+				}
+				display: flex;
+				justify-content: center;
+			}
+		}
+	}
+}
