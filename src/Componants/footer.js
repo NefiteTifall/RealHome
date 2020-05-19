@@ -3,10 +3,10 @@ import "../CSS/footer.scss"
 import Realhome from '../Assets/RealhomeDark.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
-  faPinterest,
-  faFacebook,
+  faPinterestP,
+  faFacebookF,
   faInstagram,
-  faGooglePlus,  
+  faGooglePlusG,  
 } from '@fortawesome/free-brands-svg-icons';
 
 function Footer() {
@@ -18,19 +18,19 @@ function Footer() {
 						<img src={Realhome} alt="RealHome logo DarkMode"/>
 					</div>
 					<div className="reseaux">
-					<div>
-						<FontAwesomeIcon className="Icon facebook" icon={faFacebook} />
+						<div className="facebook">
+							<FontAwesomeIcon className="Icon" icon={faFacebookF} />
+						</div>
+						<div className="pinterest">
+							<FontAwesomeIcon className="Icon" icon={faPinterestP} />
+						</div>
+						<div className="instagram">
+							<FontAwesomeIcon className="Icon" icon={faInstagram} />
+						</div>
+						<div className="googleplus">
+							<FontAwesomeIcon className="Icon" icon={faGooglePlusG} />
+						</div>
 					</div>
-					<div>
-						<FontAwesomeIcon className="Icon pinterest" icon={faPinterest} />
-					</div>
-					<div>
-						<FontAwesomeIcon className="Icon instagram" icon={faInstagram} />
-					</div>
-					<div>
-						<FontAwesomeIcon className="Icon googleplus" icon={faGooglePlus} />
-					</div>
-				</div>
 				</div>
 				<div className="col-2 col">
 					<p>Navigation</p>

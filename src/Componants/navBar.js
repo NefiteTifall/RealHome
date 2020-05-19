@@ -3,10 +3,10 @@ import "../CSS/navBar.scss"
 import logo from '../Assets/logo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
-  faPinterest,
-  faFacebook,
+  faPinterestP,
+  faFacebookF,
   faInstagram,
-  faGooglePlus,  
+  faGooglePlusG,  
 } from '@fortawesome/free-brands-svg-icons';
 
 function NavBar() {
@@ -33,17 +33,17 @@ function NavBar() {
 				</div>
 			</div>
 			<div className="reseaux">
-				<div>
-					<FontAwesomeIcon className="Icon facebook" icon={faFacebook} />
+				<div className="facebook">
+					<FontAwesomeIcon className="Icon" icon={faFacebookF} />
 				</div>
-				<div>
-					<FontAwesomeIcon className="Icon pinterest" icon={faPinterest} />
+				<div className="pinterest">
+					<FontAwesomeIcon className="Icon" icon={faPinterestP} />
 				</div>
-				<div>
-					<FontAwesomeIcon className="Icon instagram" icon={faInstagram} />
+				<div className="instagram">
+					<FontAwesomeIcon className="Icon" icon={faInstagram} />
 				</div>
-				<div>
-					<FontAwesomeIcon className="Icon googleplus" icon={faGooglePlus} />
+				<div className="googleplus">
+					<FontAwesomeIcon className="Icon" icon={faGooglePlusG} />
 				</div>
 			</div>
 		</div>

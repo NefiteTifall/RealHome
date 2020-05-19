@@ -56,38 +56,44 @@ body {
 		}
 		.reseaux {
 			color: #3c3c3c;
-			margin-top: 1.2%;
+			margin-top: 1%;
 			width: 15%;
 			display: flex;
 			padding-bottom: 1.2%;
 			justify-content: space-around;
+			div {
+				border: 2px solid #f2f2f2;
+				border-radius: 500px;
+				text-align: center;
+				height: 50px;
+				width: 50px;
+				transition: 0.4s;
+			}
 			.Icon {
+				text-align: center;
 				box-sizing: content-box;
 				cursor: pointer;
 				font-size: 20px;
-				border: solid #3c3c3c 1px;
-				padding: 10px;
-				border-radius: 200px;
-				transition: 0.4s;
+				padding: 15px;
 			}
 			.pinterest:hover {
 				background-color: rgba(191, 191, 191, .5);
-				border: solid #e5493a 1px;
+				border: solid #e5493a 2px;
 				color: #e5493a;
 			}
 			.googleplus:hover {
 				background-color: rgba(191, 191, 191, .5);
-				border: solid #e5493a 1px;
+				border: solid #e5493a 2px;
 				color: #e5493a;
 			}
 			.facebook:hover {
 				background-color: rgba(191, 191, 191, .5);
-				border: solid #4267B2 1px;
+				border: solid #4267B2 2px;
 				color: #4267B2;
 			}
 			.instagram:hover {
 				background-color: rgba(191, 191, 191, .5);
-				border: solid #852199 1px;
+				border: solid #852199 2px;
 				color: #852199;
 			}
 		}
@@ -145,38 +151,44 @@ body {
 		}
 		.reseaux {
 			color: #3c3c3c;
-			margin-top: 1.2%;
+			margin-top: 1%;
 			width: 15%;
 			display: flex;
-			justify-content: space-around;
 			padding-bottom: 1.2%;
+			justify-content: space-around;
+			div {
+				border: 2px solid #f2f2f2;
+				border-radius: 500px;
+				text-align: center;
+				height: 50px;
+				width: 50px;
+				transition: 0.4s;
+			}
 			.Icon {
+				text-align: center;
 				box-sizing: content-box;
 				cursor: pointer;
 				font-size: 20px;
-				border: solid #3c3c3c 1px;
-				padding: 10px;
-				border-radius: 200px;
-				transition: 0.4s;
+				padding: 15px;
 			}
 			.pinterest:hover {
 				background-color: rgba(191, 191, 191, .5);
-				border: solid #e5493a 1px;
+				border: solid #e5493a 2px;
 				color: #e5493a;
 			}
 			.googleplus:hover {
 				background-color: rgba(191, 191, 191, .5);
-				border: solid #e5493a 1px;
+				border: solid #e5493a 2px;
 				color: #e5493a;
 			}
 			.facebook:hover {
 				background-color: rgba(191, 191, 191, .5);
-				border: solid #4267B2 1px;
+				border: solid #4267B2 2px;
 				color: #4267B2;
 			}
 			.instagram:hover {
 				background-color: rgba(191, 191, 191, .5);
-				border: solid #852199 1px;
+				border: solid #852199 2px;
 				color: #852199;
 			}
 		}
@@ -234,38 +246,44 @@ body {
 		}
 		.reseaux {
 			color: #3c3c3c;
-			margin-top: 1.2%;
+			margin-top: 1%;
 			width: 15%;
 			display: flex;
-			justify-content: space-around;
 			padding-bottom: 1.2%;
+			justify-content: space-around;
+			div {
+				border: 2px solid #f2f2f2;
+				border-radius: 500px;
+				text-align: center;
+				height: 50px;
+				width: 50px;
+				transition: 0.4s;
+			}
 			.Icon {
+				text-align: center;
 				box-sizing: content-box;
 				cursor: pointer;
 				font-size: 20px;
-				border: solid #3c3c3c 1px;
-				padding: 10px;
-				border-radius: 200px;
-				transition: 0.4s;
+				padding: 15px;
 			}
 			.pinterest:hover {
 				background-color: rgba(191, 191, 191, .5);
-				border: solid #e5493a 1px;
+				border: solid #e5493a 2px;
 				color: #e5493a;
 			}
 			.googleplus:hover {
 				background-color: rgba(191, 191, 191, .5);
-				border: solid #e5493a 1px;
+				border: solid #e5493a 2px;
 				color: #e5493a;
 			}
 			.facebook:hover {
 				background-color: rgba(191, 191, 191, .5);
-				border: solid #4267B2 1px;
+				border: solid #4267B2 2px;
 				color: #4267B2;
 			}
 			.instagram:hover {
 				background-color: rgba(191, 191, 191, .5);
-				border: solid #852199 1px;
+				border: solid #852199 2px;
 				color: #852199;
 			}
 		}
@@ -322,42 +340,44 @@ body {
 		}
 		.reseaux {
 			color: #3c3c3c;
-			margin-top: 1.2%;
+			margin-top: 1%;
 			width: 100%;
 			display: flex;
-			justify-content: center;
 			padding-bottom: 1.2%;
+			justify-content: center;
+			div {
+				border: 2px solid #f2f2f2;
+				border-radius: 500px;
+				text-align: center;
+				height: 50px;
+				width: 50px;
+				transition: 0.4s;
+			}
 			.Icon {
-				margin-right: 20px;
-				margin-left: 20px;
-				display: flex;
-				justify-content: center;
+				text-align: center;
 				box-sizing: content-box;
 				cursor: pointer;
 				font-size: 20px;
-				border: solid #3c3c3c 1px;
-				padding: 10px;
-				border-radius: 200px;
-				transition: 0.4s;
+				padding: 15px;
 			}
 			.pinterest:hover {
 				background-color: rgba(191, 191, 191, .5);
-				border: solid #e5493a 1px;
+				border: solid #e5493a 2px;
 				color: #e5493a;
 			}
 			.googleplus:hover {
 				background-color: rgba(191, 191, 191, .5);
-				border: solid #e5493a 1px;
+				border: solid #e5493a 2px;
 				color: #e5493a;
 			}
 			.facebook:hover {
 				background-color: rgba(191, 191, 191, .5);
-				border: solid #4267B2 1px;
+				border: solid #4267B2 2px;
 				color: #4267B2;
 			}
 			.instagram:hover {
 				background-color: rgba(191, 191, 191, .5);
-				border: solid #852199 1px;
+				border: solid #852199 2px;
 				color: #852199;
 			}
 		}
@@ -415,42 +435,44 @@ body {
 		}
 		.reseaux {
 			color: #3c3c3c;
-			margin-top: 1.2%;
+			margin-top: 1%;
 			width: 100%;
 			display: flex;
-			justify-content: center;
 			padding-bottom: 1.2%;
+			justify-content: center;
+			div {
+				border: 2px solid #f2f2f2;
+				border-radius: 500px;
+				text-align: center;
+				height: 50px;
+				width: 50px;
+				transition: 0.4s;
+			}
 			.Icon {
-				margin-right: 20px;
-				margin-left: 20px;
-				display: flex;
-				justify-content: center;
+				text-align: center;
 				box-sizing: content-box;
 				cursor: pointer;
 				font-size: 20px;
-				border: solid #3c3c3c 1px;
-				padding: 10px;
-				border-radius: 200px;
-				transition: 0.4s;
+				padding: 15px;
 			}
 			.pinterest:hover {
 				background-color: rgba(191, 191, 191, .5);
-				border: solid #e5493a 1px;
+				border: solid #e5493a 2px;
 				color: #e5493a;
 			}
 			.googleplus:hover {
 				background-color: rgba(191, 191, 191, .5);
-				border: solid #e5493a 1px;
+				border: solid #e5493a 2px;
 				color: #e5493a;
 			}
 			.facebook:hover {
 				background-color: rgba(191, 191, 191, .5);
-				border: solid #4267B2 1px;
+				border: solid #4267B2 2px;
 				color: #4267B2;
 			}
 			.instagram:hover {
 				background-color: rgba(191, 191, 191, .5);
-				border: solid #852199 1px;
+				border: solid #852199 2px;
 				color: #852199;
 			}
 		}

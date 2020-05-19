@@ -8,6 +8,7 @@
 			padding-bottom: 50px;
 			.title {
 				user-select: none;
+				width: 25%;
 				h1 {
 					margin: 0px;
 					font-family: Raleway;
@@ -28,6 +29,7 @@
 					font-size: 20px;
 					font-family: "Playfair Display";
 					color: #e2574c;
+					text-decoration: underline;
 				}
 			}
 		}
@@ -36,6 +38,7 @@
 			justify-content: center;
 			flex-wrap: wrap;
 			.card {
+				margin-top: 50px;
 				cursor: default;
 				border: 1px solid #e6e6e6;
 				margin-right: 2.5%;
@@ -43,7 +46,6 @@
 				img {
 					width: 310px;
 					user-select: none;
-
 				}
 				p.name {
 					text-align: center;
@@ -57,6 +59,7 @@
 					font-family: "Playfair Display";
 					color: #797979;
 					font-size: 16px;
+					font-weight: 700;
 				}
 			}
 		}
@@ -91,6 +94,7 @@
 					font-size: 20px;
 					font-family: "Playfair Display";
 					color: #e2574c;
+					text-decoration: underline;
 				}
 			}
 		}
@@ -101,6 +105,7 @@
 			.card {
 				cursor: default;
 				border: 1px solid #e6e6e6;
+				margin-top: 50px;
 				margin-right: 2.5%;
 				margin-left: 2.5%;
 				img {
@@ -120,6 +125,7 @@
 					font-family: "Playfair Display";
 					color: #797979;
 					font-size: 16px;
+					font-weight: 700;
 				}
 			}
 		}
