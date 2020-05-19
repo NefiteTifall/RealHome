@@ -13,7 +13,7 @@ function NavBar() {
 	return (
 		<div className="navBar">
 			<div className="logo">
-				<img src={logo} />
+				<img src={logo} alt="RealHome logo"/>
 			</div>
 			<div className="menu">
 				<div>

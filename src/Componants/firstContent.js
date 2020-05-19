@@ -13,7 +13,7 @@ function FirstContent() {
 			</div>
 			<div className="content">
 				<div className="image">
-					<img src={image} />
+					<img src={image} alt="Intérieur de maison avec un ordinateur"/>
 				</div>
 				<div className="text">
 					<p>
